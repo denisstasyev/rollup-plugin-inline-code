@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-inline-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollup plugin for loading scripts as a text",
   "main": "dist/index.js",
   "files": [
