@@ -5,5 +5,7 @@
 node_modules
 dist
 .npmrc
+coverage/**/*
+!coverage/badge-lines.svg
 
 .DS_Store
