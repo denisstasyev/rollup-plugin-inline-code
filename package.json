@@ -1,0 +1,43 @@
+{
+  "name": "rollup-plugin-inline-code",
+  "version": "1.0.0",
+  "description": "Rollup plugin for loading scripts as a text",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write '{src,tests}/**/*'",
+    "prepublishOnly": "npm run format & npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisstasyev/rollup-plugin-inline-code.git"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "rollup-plugin",
+    "inline",
+    "insert",
+    "inline-code",
+    "insert-code",
+    "inline-javascript",
+    "insert-javascript"
+  ],
+  "author": "Denis Stasyev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denisstasyev/rollup-plugin-inline-code/issues"
+  },
+  "homepage": "https://github.com/denisstasyev/rollup-plugin-inline-code#readme",
+  "dependencies": {
+    "jest": "^27.0.4",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4"
+  }
+}
