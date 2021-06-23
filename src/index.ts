@@ -15,7 +15,7 @@ export default (options: Options = {}) => {
 			if (sourcePath.includes(prefix)) {
 				const sourceArray = sourcePath.split(prefix)
 				const name = sourceArray[sourceArray.length - 1]
-				const target = path.resolve(__dirname, name)
+				const target = name
 
 				paths.set(target, name)
 
