@@ -10,6 +10,7 @@ This Rollup plugin is like [raw-loader](https://v4.webpack.js.org/loaders/raw-lo
 
 - Easy to use (simple configuration)
 - Fully customizable: you can adjust it for yourself :t-rex:
+- Suitable for inline JavaScript, TypeScript, SVG files
 - Typescript code highlighting works :fire:
 
 ## Install
