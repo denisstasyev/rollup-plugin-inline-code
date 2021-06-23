@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "tsc && cp dist/src/* dist",
-    "format": "prettier --write '{src,tests}/**/*'",
+    "format": "prettier --write '{src/**/*,tests/**/*.test.ts}'",
     "prepublishOnly": "npm run format && npm run build && npm run test:badges",
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
