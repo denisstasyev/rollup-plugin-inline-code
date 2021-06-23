@@ -23,12 +23,12 @@ export default (options: Options = {}) => {
 			}
 			return null
 		},
-		transform: (codeContent: string, id: string) => {
+		transform: (codeContent: string, id: string | null) => {
 			if (!paths.has(id)) {
 				return null
 			}
 
-			const code = `export default ${JSON.stringify(codeContent)};`
+			const code = `export default ${JSON.stringify(codeContent.trim())};`
 			const map = { mappings: '' }
 
 			return {
