@@ -45,6 +45,8 @@ import html from 'common-tags/lib/html' // Optional template literal tag functio
 import INLINE_SCRIPT from 'inline!./src/assets/inline.js'
 import INLINE_SVG from 'inline!./src/assets/sample.svg'
 
+...
+
 return html`
   <!DOCTYPE html>
   <html lang="en">
@@ -59,12 +61,15 @@ return html`
 
       <!-- Inline SVG -->
       ${INLINE_SVG}
+
+      ...
     </body>
   </html>
 `
+...
 ```
 
-`rollup-plugin-inline-code` replaces `INLINE_SCRIPT` and `INLINE_SVG` with file contents, success :confetti_ball:
+This [rollup-plugin-inline-code](https://github.com/denisstasyev/rollup-plugin-inline-code) replaces `INLINE_SCRIPT` and `INLINE_SVG` with file contents, success :confetti_ball:
 
 ## TypeScript syntax highlighting
 
