@@ -16,7 +16,8 @@ export default (options: Options = {}) => {
 				const sourceArray = sourcePath.split(prefix)
 				const name = sourceArray[sourceArray.length - 1]
 
-				paths.set(name, name) // target - name
+				// target - name
+				paths.set(name, name)
 
 				return name
 			}
