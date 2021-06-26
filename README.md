@@ -1,6 +1,6 @@
 # rollup-plugin-inline-code
 
-[![NPM version](https://img.shields.io/npm/v/rollup-plugin-inline-code.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-inline-code) [![NPM downloads](https://img.shields.io/npm/dm/rollup-plugin-inline-code.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-inline-code) [![Svelte v3](https://img.shields.io/badge/rollup-blueviolet.svg)](https://rollupjs.org/) ![Coverage](./coverage/badge-lines.svg)
+[![NPM version](https://img.shields.io/npm/v/rollup-plugin-inline-code.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-inline-code) [![NPM downloads](https://img.shields.io/npm/dm/rollup-plugin-inline-code.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-inline-code) [![Svelte v3](https://img.shields.io/badge/rollup-blueviolet.svg)](https://rollupjs.org/) ![Coverage](./coverage/badge-lines.svg) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Rollup plugin for inline scripts into code
 
