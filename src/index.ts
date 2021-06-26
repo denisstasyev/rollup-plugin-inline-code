@@ -15,11 +15,10 @@ export default (options: Options = {}) => {
 			if (sourcePath.includes(prefix)) {
 				const sourceArray = sourcePath.split(prefix)
 				const name = sourceArray[sourceArray.length - 1]
-				const target = name
 
-				paths.set(target, name)
+				paths.set(name, name) // target - name
 
-				return target
+				return name
 			}
 			return null
 		},
