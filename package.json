@@ -7,12 +7,12 @@
     "dist/index.*"
   ],
   "scripts": {
-    "build": "rm -r dist && tsc && cp dist/src/* dist",
+    "build": "tsc && cp dist/src/* dist",
     "format": "prettier --write '{src/**/*,tests/**/*.test.ts}'",
-    "prepublishOnly": "npm run format && npm run build && npm run test:badges",
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
-    "test:badges": "npm run test:coverage && jest-coverage-badges"
+    "test:badges": "npm run test:coverage && jest-coverage-badges",
+    "prepublishOnly": "npm run format && npm run build && npm run test:badges"
   },
   "repository": {
     "type": "git",
