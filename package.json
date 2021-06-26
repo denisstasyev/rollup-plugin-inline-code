@@ -7,7 +7,7 @@
     "dist/index.*"
   ],
   "scripts": {
-    "build": "rm -r dist && tsc && cp dist/src/* dist",
+    "build": "tsc && cp dist/src/* dist",
     "format": "prettier --write '{src/**/*,tests/**/*.test.ts}'",
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
