@@ -1,0 +1,30 @@
+name: Publication
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  Publish-to-NPM:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Use Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - name: Install dependencies
+        run: npm ci
+      - name: Format
+        run: npm run format
+      - name: Build
+        run: npm run build
+      - name: Test (generate coverage badge)
+        run: npm run test:badges
+      - name: Release new version to NPM and commit new version with new coverage badge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
