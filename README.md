@@ -43,7 +43,7 @@ Then modify the import with the prefix `inline!`
 ```javascript
 import html from 'common-tags/lib/html' // Optional template literal tag function to remove spaces inside HTML-like string
 
-import INLINE_SCRIPT from 'inline!./src/assets/inline.js'
+import INLINE_SCRIPT from 'inline!./src/assets/inline.js' // Note the extension is important here (not to be missed)
 import INLINE_SVG from 'inline!./src/assets/sample.svg'
 
 ...
