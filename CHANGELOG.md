@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/denisstasyev/rollup-plugin-inline-code/compare/v1.2.5...v1.2.6) (2021-07-09)
+
+
+### Bug Fixes
+
+* README.md ([b0f6c8c](https://github.com/denisstasyev/rollup-plugin-inline-code/commit/b0f6c8c0a487181a688a2d0258e5b77718527914))
+
 ## [1.2.5](https://github.com/denisstasyev/rollup-plugin-inline-code/compare/v1.2.4...v1.2.5) (2021-06-26)
 
 
