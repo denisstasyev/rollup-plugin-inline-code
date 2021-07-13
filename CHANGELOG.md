@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/denisstasyev/rollup-plugin-inline-code/compare/v1.2.6...v1.2.7) (2021-07-13)
+
+
+### Bug Fixes
+
+* remove TS from dependencies ([c5d0e4a](https://github.com/denisstasyev/rollup-plugin-inline-code/commit/c5d0e4ae8a5368c174475dff238ed65e9477e9b1))
+
 ## [1.2.6](https://github.com/denisstasyev/rollup-plugin-inline-code/compare/v1.2.5...v1.2.6) (2021-07-09)
 
 
