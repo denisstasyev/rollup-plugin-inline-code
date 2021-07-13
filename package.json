@@ -34,9 +34,6 @@
     "url": "https://github.com/denisstasyev/rollup-plugin-inline-code/issues"
   },
   "homepage": "https://github.com/denisstasyev/rollup-plugin-inline-code#readme",
-  "dependencies": {
-    "typescript": "^4.3.4"
-  },
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.5",
@@ -54,6 +51,7 @@
     "jest-coverage-badges": "^1.1.2",
     "prettier": "^2.3.1",
     "semantic-release": "^17.4.4",
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
   }
 }
